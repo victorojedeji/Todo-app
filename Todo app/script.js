@@ -6,7 +6,7 @@ addItemButton.onclick = function () {
 	addItem();
 }
 function addItem(){
-	console.log("i am adding item");
+	console.log("i am adding an item");
 	var newContent = document.createElement("div");
 	itemWrapper.appendChild(newContent);
 	newContent.outerHTML = 
