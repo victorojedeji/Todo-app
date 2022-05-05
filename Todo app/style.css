@@ -1,8 +1,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	background-color: white;
+	box-sizing; border-box;
 }
+
+body {
+	background-color: white;
+}	
 
 #items-container{
 	background-color: rgb(10, 10, 20);
