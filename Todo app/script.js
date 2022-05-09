@@ -1,12 +1,14 @@
+// getting elements from html
 let addItemButton = document.getElementById("add-item-button");
 let itemWrapper = document.querySelector("items-wrapper");
+
 RefreshItemFunction();
 addItemButton.onclick = function () {
-	console.log("i have been clicked");
+	
 	addItem();
 }
 function addItem(){
-	console.log("i am adding an item");
+	
 	var newContent = document.createElement("div");
 	itemWrapper.appendChild(newContent);
 	newContent.outerHTML = 
