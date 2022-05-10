@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: #ffffff;
 }	
 
 #items-container{
@@ -29,7 +29,7 @@ body {
 }
 
 .item-text{
-	background-color: white;
+	background-color: #ffffff;
 	color: rgb(10, 10, 20);
 	border-radius: 5px;
 	width: 90%;
