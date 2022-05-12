@@ -21,7 +21,7 @@ body {
 	padding: 1rem;
 	width: 70%;
 	margin: 5px auto;
-	background-color: gray;
+	background-color: #808080;
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px -1px rgb(100, 100, 100);
 	display: flex;
